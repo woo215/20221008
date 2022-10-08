@@ -12,7 +12,7 @@
 }
 
 #intro {
-    background-color: brown;
+    background-color: purple;
 }
 
 #like {
@@ -26,32 +26,84 @@ body {
 
 .container_half {
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .card {
-    width: 200px;
+    width: 300px;
     height: 300px;
     background-color: red;
     margin: 10px;
 }
 
-.card_image {
+.card_image1 {
     background-color: blue;
     height: 50%;
 }
 
-.card_title {
-    background-color: brown;
-    height: 15%;
+.card_image2 {
+    background-color: blue;
+    height: 50%;
 }
 
-.card_description {
+.card_image3 {
+    background-color: blue;
+    height: 50%;
+}
+
+.card_title1 {
+    background-color: brown;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_title2 {
+    background-color: brown;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_title3 {
+    background-color: brown;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_description1 {
     background-color: burlywood;
     height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_description2 {
+    background-color: burlywood;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_description3 {
+    background-color: burlywood;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container_title {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #ash {
@@ -81,4 +133,10 @@ li {
     background-color: springgreen;
     position: fixed;
     width: 100vw;
+}
+
+.line {
+    border: 5px solid black;
+    width: 0.1px;
+    height: 98vh;
 }
