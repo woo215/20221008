@@ -1,0 +1,84 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home {
+    background-color: aqua;
+    font-size: 500%;
+    color: white;
+}
+
+#intro {
+    background-color: brown;
+}
+
+#like {
+    background-color: greenyellow;
+    flex-wrap: wrap;
+}
+
+body {
+    margin: 0;
+}
+
+.container_half {
+    width: 50%;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    margin: 10px;
+}
+
+.card_image {
+    background-color: blue;
+    height: 50%;
+}
+
+.card_title {
+    background-color: brown;
+    height: 15%;
+}
+
+.card_description {
+    background-color: burlywood;
+    height: 35%;
+}
+
+.container_title {
+    width: 100%;
+}
+
+#ash {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    height: 10vh;
+}
+
+.footer-copyright {
+    padding: 3vh;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
+li {
+    margin: 10px;
+}
+
+.navbar {
+    background-color: springgreen;
+    position: fixed;
+    width: 100vw;
+}
